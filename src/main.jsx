@@ -13,6 +13,7 @@ import {
   Sparkles,
   Video,
 } from "lucide-react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import "./styles.css";
 
 const photographs = [
@@ -90,6 +91,7 @@ const services = [
 
 function App() {
   return (
+    <>
     <main>
       <header className="nav">
         <a className="brand" href="#top" aria-label="Deepesh portfolio home">
@@ -267,6 +269,8 @@ function App() {
         </div>
       </section>
     </main>
+    <SpeedInsights />
+    </>
   );
 }
 
