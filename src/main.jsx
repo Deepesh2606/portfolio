@@ -13,6 +13,7 @@ import {
   Sparkles,
   Video,
 } from "lucide-react";
+import { Analytics } from "@vercel/analytics/react";
 import "./styles.css";
 
 const photographs = [
@@ -266,6 +267,7 @@ function App() {
           </a>
         </div>
       </section>
+      <Analytics />
     </main>
   );
 }
